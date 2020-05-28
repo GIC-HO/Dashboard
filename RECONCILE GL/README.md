@@ -72,6 +72,8 @@ HAVING
 
 Kiểm tra các bút toán ZZ trên SUNGL có được hoàn toàn upload từ GICORE hay không hoặc có bút toán được sửa bằng tay. Chủ yếu là các bút toán có hậu tố -R tại kỳ 202004. Còn ở kỳ 202005 thì các bút toán thiếu do data GICORE trên replicate sync chưa đủ.
 
+//TODO @baramekatrop [#2](https://github.com/GIC-HO/Dashboard/issues/2)
+
 ```TSQL
 DROP TABLE IF EXISTS #TMP ;
 
